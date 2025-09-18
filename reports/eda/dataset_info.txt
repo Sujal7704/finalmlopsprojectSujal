@@ -1,0 +1,44 @@
+Shape: (1599, 12)
+
+Data Types:
+fixed acidity           float64
+volatile acidity        float64
+citric acid             float64
+residual sugar          float64
+chlorides               float64
+free sulfur dioxide     float64
+total sulfur dioxide    float64
+density                 float64
+pH                      float64
+sulphates               float64
+alcohol                 float64
+quality                   int64
+dtype: object
+
+Missing Values:
+fixed acidity           0
+volatile acidity        0
+citric acid             0
+residual sugar          0
+chlorides               0
+free sulfur dioxide     0
+total sulfur dioxide    0
+density                 0
+pH                      0
+sulphates               0
+alcohol                 0
+quality                 0
+dtype: int64
+
+Summary Statistics:
+       fixed acidity  volatile acidity  citric acid  ...    sulphates      alcohol      quality
+count    1599.000000       1599.000000  1599.000000  ...  1599.000000  1599.000000  1599.000000
+mean        8.319637          0.527821     0.270976  ...     0.658149    10.422983     5.636023
+std         1.741096          0.179060     0.194801  ...     0.169507     1.065668     0.807569
+min         4.600000          0.120000     0.000000  ...     0.330000     8.400000     3.000000
+25%         7.100000          0.390000     0.090000  ...     0.550000     9.500000     5.000000
+50%         7.900000          0.520000     0.260000  ...     0.620000    10.200000     6.000000
+75%         9.200000          0.640000     0.420000  ...     0.730000    11.100000     6.000000
+max        15.900000          1.580000     1.000000  ...     2.000000    14.900000     8.000000
+
+[8 rows x 12 columns]

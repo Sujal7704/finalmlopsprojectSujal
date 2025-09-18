@@ -1,0 +1,58 @@
+[
+    {
+        "step": 1,
+        "model": "CatBoostClassifier",
+        "accuracy": 0.6312,
+        "f1_macro": 0.4677,
+        "loss": 0.8571
+    },
+    {
+        "step": 2,
+        "model": "GradientBoostingClassifier",
+        "accuracy": 0.6562,
+        "f1_macro": 0.4798,
+        "loss": 1.1715
+    },
+    {
+        "step": 3,
+        "model": "LGBMClassifier",
+        "accuracy": 0.625,
+        "f1_macro": 0.4703,
+        "loss": 1.1541
+    },
+    {
+        "step": 4,
+        "model": "LogisticRegression",
+        "accuracy": 0.4313,
+        "f1_macro": 0.3437,
+        "loss": 1.2419
+    },
+    {
+        "step": 5,
+        "model": "MLPClassifier",
+        "accuracy": 0.5969,
+        "f1_macro": 0.4323,
+        "loss": 2.1417
+    },
+    {
+        "step": 6,
+        "model": "RandomForestClassifier",
+        "accuracy": 0.6094,
+        "f1_macro": 0.4204,
+        "loss": 0.8433
+    },
+    {
+        "step": 7,
+        "model": "VotingClassifier",
+        "accuracy": 0.575,
+        "f1_macro": 0.456,
+        "loss": 1.018
+    },
+    {
+        "step": 8,
+        "model": "XGBClassifier",
+        "accuracy": 0.6156,
+        "f1_macro": 0.4682,
+        "loss": 0.8501
+    }
+]
